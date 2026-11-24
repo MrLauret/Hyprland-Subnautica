@@ -1,0 +1,1 @@
+local home_dir = os.getenv("HOME")

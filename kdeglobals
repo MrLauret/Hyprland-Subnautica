@@ -1,0 +1,15 @@
+[Colors:View]
+ForegroundActive=255,255,255
+ForegroundLink=41,128,185
+ForegroundNormal=255,255,255
+ForegroundVisited=127,140,141
+
+[KDE]
+ShowDeleteCommand=false
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0

@@ -1,0 +1,144 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* ===== Unified Right Container ===== */
+.modules-right {
+    background: rgba(35, 24, 55, 0.55);
+    border: 1px solid rgba(180, 140, 255, 0.25);
+    border-radius: 14px;
+    margin: 3px 0;
+    padding: 0 4px;
+}
+
+/* ===== Inner Right Modules ===== */
+#idle_inhibitor,
+#tray,
+#cpu,
+#memory,
+#pulseaudio {
+    background: rgba(40, 30, 60, 0.55);
+    color: #d9c9ff;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 4px 10px 0px 10px;
+    margin: 3px 2px;
+    transition: all 0.25s ease-in-out;
+}
+
+#idle_inhibitor:hover,
+#tray:hover,
+#cpu:hover,
+#memory:hover,
+#pulseaudio:hover {
+    background: rgba(157, 123, 255, 0.25);
+    box-shadow: 0 0 10px rgba(157, 123, 255, 0.4);
+}
+
+/* ===== Cava Audio Visualizer ===== */
+#custom-cava {
+    background: rgba(35, 24, 55, 0.55);
+    color: #b0c4ff;
+    border: 1px solid rgba(180, 140, 255, 0.25);
+    border-radius: 14px;
+    padding: 4px 12px 2px 12px;
+    margin: 3px 0 3px 6px;
+    transition: all 0.25s ease-in-out;
+}
+
+/* ===== Workspaces (Left) ===== */
+#workspaces {
+    background: rgba(35, 24, 55, 0.55);
+    border: 1px solid rgba(180, 140, 255, 0.25);
+    border-radius: 18px;
+    padding: 2px 8px 2px 8px;
+    margin: 1px 0;
+}
+
+#workspaces button {
+    color: #9a86c9;
+    background: transparent;
+    border-radius: 999px;
+    padding: 2px 8px;
+    margin: 0 2px;
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #f5f0ff;
+    background: linear-gradient(135deg, #9d7bff, #6f8bff);
+    box-shadow: 0 0 8px rgba(157, 123, 255, 0.6);
+}
+
+#workspaces button:hover {
+    background: rgba(157, 123, 255, 0.35);
+    color: #ffffff;
+}
+
+/* ===== Clock (Center) ===== */
+#clock {
+    background: linear-gradient(135deg, rgba(157, 123, 255, 0.65), rgba(111, 139, 255, 0.65));
+    color: #f2ecff;
+    font-weight: 700;
+    border: 1px solid rgba(200, 170, 255, 0.75);
+    border-radius: 20px;
+    padding: 4px 10px 0px 10px;
+    margin: 3px 0;
+}
+
+/* ===== Individual Module Accents & States ===== */
+#idle_inhibitor {
+    color: #b8a5e3;
+}
+
+#idle_inhibitor.activated {
+    color: #f5f0ff;
+    background: linear-gradient(135deg, rgba(157, 123, 255, 0.75), rgba(111, 139, 255, 0.75));
+    border: 1px solid rgba(200, 170, 255, 0.75);
+    box-shadow: 0 0 8px rgba(157, 123, 255, 0.5);
+}
+
+#tray {
+    padding: 3px 10px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#cpu {
+    color: #b0c4ff;
+}
+
+#memory {
+    color: #ffd6f5;
+}
+
+#pulseaudio {
+    color: #c9b6ff;
+}
+
+#pulseaudio.muted {
+    color: #8b79b5;
+    background: rgba(35, 24, 55, 0.35);
+}
+
+/* ===== Tooltip ===== */
+tooltip {
+    background: rgba(30, 20, 48, 0.9);
+    border: 1px solid rgba(180, 140, 255, 0.4);
+    border-radius: 10px;
+    color: #e8ddff;
+}
+
