@@ -2,7 +2,7 @@
 
 A translucent, frosted-glass **Hyprland** desktop configuration inspired by the **Alterra PDA** interface from *Subnautica*, blended with deep indigo-violet accents.
 
-![Desktop Preview](assets/desktop.png)
+![Desktop Preview](assets/homescreen.png)
 
 ## Features & Components
 
@@ -22,7 +22,6 @@ A translucent, frosted-glass **Hyprland** desktop configuration inspired by the 
 ## Screenshots
 
 ![Fuzzel PDA](assets/fuzzel.png)
-![Hyprlock](assets/homescreen.png)
 
 ---
 
