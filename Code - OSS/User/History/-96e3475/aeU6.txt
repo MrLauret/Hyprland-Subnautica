@@ -1,0 +1,20 @@
+Person must have:
+age, id, sex, money, parents, partner, income, opinions, needs, traits, relationships.
+
+Needs:
+money_need, food_need, rest_need, social_need.
+
+Traits:
+Smart:  +Chance to obtain better income, -Less happy when unemployed.
+Fit:    +Happiness, +Max age, -More hunger.
+Social: +Easier time making relationships, +Slightly more chance to obtain better income, -May choose to do social activities over working.
+
+Opinions:
+political_view.
+
+Relationships are a vector with id of the person and level of relationship, from 0-100, unless they have a partner, then relationships reach 80 max
+
+Places:
+Ofice, Restaurant, Park, Home,
+
+Ngl im too lazy to update this right now, if you are trying to hire me uhhhhhh idk I probably made this years ago if you are actually trying to hire me

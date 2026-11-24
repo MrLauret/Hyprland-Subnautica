@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "minimal-icons",
+    "explorer.confirmDelete": false,
+    "rust-analyzer.server.extraEnv": null,
+    "rust-analyzer.server.path": "/usr/sbin/rust-analyzer",
+    "editor.minimap.enabled": false
+}

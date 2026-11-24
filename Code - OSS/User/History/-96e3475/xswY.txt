@@ -1,0 +1,5 @@
+Person must have:
+age, sex, money, energy, parents, partner, opinions, needs and traits.
+
+Needs:
+money_need, food_need, 

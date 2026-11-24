@@ -1,0 +1,10 @@
+Person must have:
+age, sex, money, energy, parents, partner, income, opinions, needs and traits.
+
+Needs:
+money_need, food_need, rest_need.
+
+Traits:
+Smart:  +Chance to obtain better income, -Less happy when unemployed.
+Fit:    +Happiness, +Max age, -More hunger.
+Social: +Easier time making relationships, +Slightly more chance to obtain better income

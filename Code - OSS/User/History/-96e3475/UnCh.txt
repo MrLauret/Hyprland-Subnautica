@@ -1,0 +1,24 @@
+The human has a few values:
+
+Hunger
+Energy
+Money
+
+And there are only three things they can do:
+
+Eat
+Hunger goes down
+Money goes down
+
+Sleep
+Energy goes up
+
+Work
+Money goes up
+Energy goes down
+Hunger goes up
+
+Meanwhile, as time passes:
+
+Hunger slowly increases
+Energy slowly decreases

@@ -1,0 +1,15 @@
+[Colors]
+BackColor=230,226,255
+ConstantsFontsColor=31,20,98
+FunctionButtonsColor=31,20,98
+FunctionFontsColor=31,20,98
+HexButtonsColor=31,20,98
+HexFontsColor=31,20,98
+MemoryButtonsColor=31,20,98
+MemoryFontsColor=31,20,98
+NumberButtonsColor=31,20,98
+NumberFontsColor=31,20,98
+OperationButtonsColor=31,20,98
+OperationFontsColor=31,20,98
+StatButtonsColor=31,20,98
+StatFontsColor=31,20,98

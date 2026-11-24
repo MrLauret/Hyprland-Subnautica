@@ -1,0 +1,103 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "a1054175ebca390f9af9a01a1952a452dab15c5bfe6eb60915fe3b8f0b37d485",
+    "telemetry.devDeviceId": "7883651c-591f-4e20-b5fe-0cb72763a859",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "5fdf8c71b0fe1486d413b18b5c2319bf",
+                "configURIPath": "file:///home/lau/.config/Code%20-%20OSS/Workspaces/1786075191093/workspace.json"
+            }
+        ],
+        "folders": [],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/lau/.config/kitty": "__default__profile__",
+            "file:///home/lau/.config/Code%20-%20OSS/Workspaces/1786075191093/workspace.json": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#24273a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cad3f5",
+            "background": "#24273a",
+            "editorBackground": "#24273a",
+            "titleBarBackground": "#181926",
+            "titleBarInactiveBackground": "#181926",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#181926",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "modernActivityBarBackground": "#181926",
+            "modernActivityBarInactiveBackground": "#181926",
+            "modernActivityBarBorder": "#373a4d",
+            "modernPanelBorder": "#373a4d",
+            "modernUIShellBackground": "#181926",
+            "modernUIInactiveShellBackground": "#181926",
+            "sideBarBackground": "#1e2030",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "panelBackground": "#24273a",
+            "editorGroupBorder": "#5b6078",
+            "editorBorder": "#373a4d",
+            "surfaceBackground": "#1e2030",
+            "surfaceBorder": "#373a4d",
+            "agentsPanelBackground": "#1e2030",
+            "agentsPanelBorder": "rgba(202, 211, 245, 0.15)",
+            "statusBarBackground": "#181926",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#181926"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "5fdf8c71b0fe1486d413b18b5c2319bf",
+                "configURIPath": "file:///home/lau/.config/Code%20-%20OSS/Workspaces/1786075191093/workspace.json"
+            },
+            "backupPath": "/home/lau/.config/Code - OSS/Backups/5fdf8c71b0fe1486d413b18b5c2319bf",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1920,
+                "height": 1080,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "814a11f214268bc21f5a6a9acee8b91f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5fdf8c71b0fe1486d413b18b5c2319bf": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

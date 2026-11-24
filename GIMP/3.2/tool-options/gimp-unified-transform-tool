@@ -1,0 +1,6 @@
+# GIMP gimp-unified-transform-tool options
+
+(background
+    (color "HSVA float" 16 "\75\242\324\75\370\1\232\76\54\317\136\77\0\0\200\77" 0))
+
+# end of gimp-unified-transform-tool options

@@ -1,0 +1,13 @@
+mod input;
+
+use std::io::stdin;
+use terminal::terminal_setup;
+
+
+
+
+
+
+fn main() {
+    let option_values = user_input();
+}

@@ -1,0 +1,48 @@
+import torch
+from torch import nn
+
+eps = 1e-7
+
+torch.manual_seed(42)
+X = torch.randn(50, 5, dtype=torch.float32)
+Y = torch.randint(0, 4, (50,))
+
+model = nn.Module(
+    nn.Linear(5, 8),
+    nn.ReLU(),
+    nn.Linear(8, 4)
+)
+
+W2 = torch.randn(8, 4, requires_grad=True)
+B2 = torch.randn(1, 4, requires_grad=True)
+
+learning_rate = 0.1
+
+for epoch in range(10000):
+    A1 = nn.ReLU(X @ W1 + B1)
+    logits = A1 @ W2 + B2
+
+    P = torch.exp(logits) / torch.exp(logits).sum(dim=1, keepdim=True)
+    
+    True_P = P[torch.arange(len(Y)), Y]
+    loss = -torch.log(True_P + eps).mean()
+    loss.backward()
+
+    with torch.no_grad():
+        W1 -= learning_rate * W1.grad
+        B1 -= learning_rate * B1.grad
+        W2 -= learning_rate * W2.grad
+        B2 -= learning_rate * B2.grad
+
+        W1.grad.zero_()
+        B1.grad.zero_()
+        W2.grad.zero_()
+        B2.grad.zero_()
+
+
+
+prediciones = torch.argmax(P, dim=1)
+aciertos = (prediciones == Y)
+accuracy = aciertos.float().mean()
+
+print(accuracy.item() * 100)

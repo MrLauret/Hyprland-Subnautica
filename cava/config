@@ -1,0 +1,33 @@
+[general]
+framerate = 60
+autosens = 1
+bars = 0
+bar_width = 2
+bar_spacing = 1
+sleep_timer = 5
+
+[input]
+method = pipewire
+source = auto
+virtual = 1
+
+[output]
+method = noncurses
+channels = stereo
+
+[color]
+# Transparent background (uses your terminal's background)
+background = default
+
+# Violet-to-lavender gradient matching your Waybar
+gradient = 1
+gradient_count = 4
+gradient_color_1 = '#6f8bff'
+gradient_color_2 = '#9d7bff'
+gradient_color_3 = '#c9b6ff'
+gradient_color_4 = '#ffd6f5'
+
+[smoothing]
+monstercat = 1
+waves = 0
+noise_reduction = 77

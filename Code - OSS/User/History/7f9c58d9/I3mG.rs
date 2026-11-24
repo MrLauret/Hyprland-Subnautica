@@ -1,0 +1,19 @@
+use crate::people::structs::{Traits, Population};
+use rand::random_range;
+
+impl Traits {
+    pub fn calc_traits(population: &Population, father: u32, mother: u32) -> Traits {
+        let father_traits = population.find_by_id(father).traits;
+        let mother_traits = population.find_by_id(mother).traits;
+
+        Traits {
+            fit: (),
+            smart: Traits::inherit(father_traits.smart, mother_traits.smart),
+            social: Traits::inherit(father_traits.social, mother_traits.social),
+        }
+    }
+
+    fn inherit(father: f32, mother: f32) -> f32 {
+        (father + mother + random_range(-1.0..=1.0)) / 3.0
+    }
+}

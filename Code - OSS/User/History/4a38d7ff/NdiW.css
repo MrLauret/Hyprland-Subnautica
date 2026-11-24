@@ -1,0 +1,100 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* ===== Shared pill/module look ===== */
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#tray {
+    background: rgba(35, 24, 55, 0.55);
+    color: #d9c9ff;
+    border: 1px solid rgba(180, 140, 255, 0.25);
+    border-radius: 14px;
+    padding: 3px 12px;
+    margin: 3px 3px;
+}
+
+/* ===== Workspaces ===== */
+#workspaces {
+    padding: 3px 6px;
+}
+
+#workspaces button {
+    color: #9a86c9;
+    background: transparent;
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin: 0 2px;
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #f5f0ff;
+    background: linear-gradient(135deg, #9d7bff, #6f8bff);
+    box-shadow: 0 0 8px rgba(157, 123, 255, 0.6);
+}
+
+#workspaces button:hover {
+    background: rgba(157, 123, 255, 0.35);
+    color: #ffffff;
+}
+
+/* ===== Clock ===== */
+#clock {
+    background: linear-gradient(135deg, rgba(157, 123, 255, 0.65), rgba(111, 139, 255, 0.65));
+    color: #f2ecff;
+    font-weight: 700;
+    border: 1px solid rgba(200, 170, 255, 0.75);
+}
+
+/* ===== Right modules ===== */
+#pulseaudio {
+    color: #c9b6ff;
+}
+
+#cpu {
+    color: #a8beff;
+}
+
+#memory {
+    color: #ffd6f5;
+}
+
+#tray {
+    padding: 3px 10px;
+}
+
+@keyframes blink {
+    to {
+        opacity: 0.4;
+    }
+}
+
+/* Hover glow on the little pills */
+#pulseaudio:hover,
+#network:hover,
+#cpu:hover,
+#memory:hover,
+#battery:hover {
+    background: rgba(157, 123, 255, 0.25);
+    box-shadow: 0 0 6px rgba(157, 123, 255, 0.4);
+}
+
+tooltip {
+    background: rgba(30, 20, 48, 0.9);
+    border: 1px solid rgba(180, 140, 255, 0.4);
+    border-radius: 10px;
+    color: #e8ddff;
+}

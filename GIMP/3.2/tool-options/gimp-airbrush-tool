@@ -1,0 +1,18 @@
+# GIMP gimp-airbrush-tool options
+
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(background
+    (color "HSVA float" 16 "\75\242\324\75\370\1\232\76\54\317\136\77\0\0\200\77" 0))
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 1)
+(brush-spacing 0.52000000000000002)
+(brush-hardness 0.5)
+(brush-force 0.41999999999999998)
+(fade-length 152)
+
+# end of gimp-airbrush-tool options

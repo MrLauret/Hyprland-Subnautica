@@ -1,0 +1,5 @@
+[Default Applications]
+x-scheme-handler/curseforge=curseforge.desktop
+x-scheme-handler/cfauth=curseforge.desktop
+
+[Added Associations]

@@ -1,0 +1,12 @@
+[KDE]
+ShowDeleteCommand=false
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Colors:View]
+ForegroundNormal=255,255,255
+ForegroundActive=255,255,255
+ForegroundLink=41,128,185
+ForegroundVisited=127,140,141
